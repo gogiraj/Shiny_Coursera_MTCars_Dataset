@@ -1,0 +1,48 @@
+Coursera Project: Shiny Application and Reproducible Pitch
+========================================================
+author: Gagan Deep Singh Chhabra
+date: 25 May 2017
+
+
+Overview
+========================================================
+
+This was built as part of a deliverable for the course **Developing Data Products** as part of the Coursera Data Science Specialization.
+
+The app developed for the first part of the assignment demo is avalilable at:
+https://gogiraj.shinyapps.io/about/
+
+Source code for ui.R and server.R files are available on the GitHub repo:
+https://github.com/gogiraj/Shiny_Coursera_MTCars_Dataset
+
+
+
+Web Application functionality
+========================================================
+
+We have provided different options to select the most fit car for your trip. We are using the mtcars dataset from R.
+
+You can provide your trip detail like distance of your trip and the price of gasoline in your region, it's needed to calculate the Gasoline Expenditure for each car. Next with provide your budget on gasoline, so we can filtered and show the car with has Miles per Gallon(MPG) that below your budget. You can also choose your desire cars characteristic in term of : Cylinders, Displacement, Horse Power and Transmission.
+
+The result of the cars are displayed in the table on the main content. You can sort the table according to the variable you want by clicking the arrows at the top of the table.
+
+
+MTCARS Dataset
+========================================================
+
+The data used in the app comes from the Motor Trend Car Road Tests (mtcars) dataset. Below is the mtcars's summary
+```{r, echo=FALSE}
+summary(mtcars)
+```
+
+
+Plot
+========================================================
+
+Relationship between miles per gallon (mpg) and displacement (disp) in the mtcars dataset diplayed using scatteplot.
+
+```{r, echo=FALSE}
+library(car)
+scatterplot.matrix(~mpg+disp, data=mtcars, cex.axis=1.5)
+```
+
