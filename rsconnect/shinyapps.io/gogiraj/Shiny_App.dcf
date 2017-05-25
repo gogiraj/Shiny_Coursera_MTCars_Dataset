@@ -1,0 +1,11 @@
+name: Shiny_App
+title: Shiny_App
+account: gogiraj
+server: shinyapps.io
+appId: 183611
+bundleId: 840575
+url: https://gogiraj.shinyapps.io/Shiny_App/
+when: 1495721959.26234
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: slides.md|slides.Rpres|slides-figure/unnamed-chunk-2-1.png

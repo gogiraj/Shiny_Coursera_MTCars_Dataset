@@ -1,0 +1,11 @@
+name: about
+title: about
+account: gogiraj
+server: shinyapps.io
+appId: 183617
+bundleId: 840595
+url: https://gogiraj.shinyapps.io/about/
+when: 1495722815.09722
+asMultiple: FALSE
+asStatic: FALSE
+additionalFiles: server.R|ui.R
