@@ -14,4 +14,4 @@ You can provide your trip detail like distance of your trip and the price of gas
 
 The result of the cars are displayed in the table on the main content. You can sort the table according to the variable you want by clicking the arrows at the top of the table.
 
-Source code for ui.R and server.R files are available on the GitHub repo: 
+Source code for ui.R and server.R files are available on the GitHub repo: https://github.com/gogiraj/Shiny_Coursera_MTCars_Dataset
